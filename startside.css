@@ -1,19 +1,40 @@
+* {
+  box-sizing: border-box; /* Prevent padding (and borders) from adding to width/height */
+}
+
+html, body {
+  margin: 0px; /* Remove browser default margins */
+  padding: 0px; /* Remove browser default padding */
+}
+
+html {
+  height: 100%; /* Helps min-height work properly on body */
+}
+
+/* Main Content */
+.main-content {
+  padding: 15px;
+}
+
 body {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("https://i.imgur.com/fgSn8vr.png");
+  position: relative; /* Assist "position: absolute" below */
+  padding-top: 170px; /* Must match header height; make up for header being removed from the document flow */
+  padding-bottom: 0px; /* Must match footer height; make up for footer being removed from the document flow */
+  min-height: 100%; /* Force body to be at least the size of the screen */
+  background: grey; /* Backup color */
+  background: url(https://i.imgur.com/GH8pCEG.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
     box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
 -webkit-box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
-    background-color: grey;
+    background-color: #080909;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -21,13 +42,11 @@ header {
     align-items: center;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
-  /*Opacity start*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=80);
-    -moz-opacity: 0.80;
-    -khtml-opacity: 0.8;
-    opacity: 0.8;
-    /*Opacity end*/
+  position: fixed; /* Helps us position at the top; header no longer takes up space in the flow of the document */
+  top: 0px;
+  width: 100%;
+  height: 170px;
+  padding: 15px;
 
   }
 
@@ -39,7 +58,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 border: solid grey;
-background-color: grey;
 color: white;
 font-family: 'Raleway', sans-serif;
 padding: 2px;
@@ -49,6 +67,10 @@ height: 0;
 width: 20%;
 padding-bottom: 20%;
 border-radius: 6px;
+filter: alpha(opacity=20);
+      background: rgba(8, 9, 9, 0.5);
+    -pie-background:  rgba(200, 54, 54, 0.5); /* IE8 and earlier */
+    behavior: url(PIE.htc); /* IE8 and earlier */
 }
 
 .row {
