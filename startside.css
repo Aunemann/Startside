@@ -13,7 +13,7 @@ header {
     box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
 -webkit-box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
-    background-color: #080909;
+    background-color: grey;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -21,6 +21,14 @@ header {
     align-items: center;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
+  /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    /*Opacity end*/
+
   }
 
 .widget {
@@ -30,8 +38,8 @@ box-shadow: -12px 17px 22px -11px rgba(0,0,0,0.75);
 display: flex;
 flex-direction: column;
 align-items: center;
-border: solid #c0c0c0;
-background-color: #c0c0c0;
+border: solid grey;
+background-color: grey;
 color: white;
 font-family: 'Raleway', sans-serif;
 padding: 2px;
@@ -110,13 +118,13 @@ border-radius: 6px;
 }
 
 a {
-    color: #080909;
+    color: white;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
 }
 
 .video {
-    color: #080909;
+    color: white;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
 }
@@ -126,7 +134,7 @@ a:hover {
 }
 
 .chat {
-    color: #080909;
+    color: white;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
 }
@@ -155,7 +163,7 @@ a:hover {
 }
 
 .tools {
-    color: #080909;
+    color: white;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
 }
