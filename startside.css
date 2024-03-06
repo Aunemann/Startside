@@ -1,27 +1,5 @@
-* {
-  box-sizing: border-box; /* Prevent padding (and borders) from adding to width/height */
-}
-
-html, body {
-  margin: 0px; /* Remove browser default margins */
-  padding: 0px; /* Remove browser default padding */
-}
-
-html {
-  height: 100%; /* Helps min-height work properly on body */
-}
-
-/* Main Content */
-.main-content {
-  padding: 15px;
-}
-
 body {
   position: relative; /* Assist "position: absolute" below */
-  padding-top: 170px; /* Must match header height; make up for header being removed from the document flow */
-  padding-bottom: 0px; /* Must match footer height; make up for footer being removed from the document flow */
-  min-height: 100%; /* Force body to be at least the size of the screen */
-  background: grey; /* Backup color */
   background: url(https://i.imgur.com/GH8pCEG.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -36,17 +14,12 @@ header {
 -moz-box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
     background-color: #080909;
     color: #fff;
-    padding: 20px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
-  position: fixed; /* Helps us position at the top; header no longer takes up space in the flow of the document */
-  top: 0px;
-  width: 100%;
-  height: 170px;
-  padding: 15px;
 
   }
 
