@@ -18,6 +18,10 @@
 
   var body = document.getElementById('collection-542ba4a1e4b032a0dde82b31');
   body.style.backgroundImage = imgURL;
-  body.style.backgroundSize = "100% auto";
-  body.style.backgroundRepeat = "no-repeat";
+  body.style.backgroundSize = "cover";
+  body.style.backgroundRepeat = "no-repeat center center fixed";
+  body.style.webkitbackgroundsize: "cover";
+  body.style.obackgroundsize: "cover";
+  body.style.mozbackgroundsize: "cover";
+  body.style.position: "relative";
 }());
