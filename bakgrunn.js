@@ -3,7 +3,11 @@
   var images = [
     "https://i.imgur.com/fgSn8vr.png",
     "https://i.imgur.com/GH8pCEG.png",
-    "https://i.imgur.com/kdVXbpw.png"
+    "https://i.imgur.com/kdVXbpw.png",
+    "https://i.imgur.com/iWQ6YKo.png",
+    "https://i.imgur.com/gnqoRMg.png",
+    "https://i.imgur.com/2Tue34r.png",
+    "https://i.imgur.com/F7aMj0m.png"
   ];
 
   var imgCount = images.length;
