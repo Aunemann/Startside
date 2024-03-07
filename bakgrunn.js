@@ -6,7 +6,10 @@
       "https://i.imgur.com/2Tue34r.png",
       "https://i.imgur.com/iWQ6YKo.png",
       "https://i.imgur.com/gnqoRMg.png",
-      "https://i.imgur.com/fgSn8vr.png"
+      "https://i.imgur.com/fgSn8vr.png",
+      "https://i.imgur.com/NFjJy4m.png",
+      "https://i.imgur.com/sWN2w4h.png",
+      "https://i.imgur.com/7Wzb6bC.png"
 
   ];
 
