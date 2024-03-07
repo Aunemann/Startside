@@ -1,6 +1,6 @@
 body {
   position: relative; /* Assist "position: absolute" below */
-  background: url(https://i.imgur.com/GH8pCEG.png) no-repeat center center fixed;
+  background: url(https://i.imgur.com/fgSn8vr.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -168,7 +168,7 @@ a:hover {
     grid-template-columns: auto auto auto;
     justify-content: left;
     align-items: center;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: lighter;
     color: white;
     font-family: 'Raleway', sans-serif;
