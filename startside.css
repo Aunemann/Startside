@@ -1,24 +1,27 @@
 body {
     position: relative;
+    /* Assist "position: absolute" below */
     background: url(https://i.imgur.com/fgSn8vr.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
   }
+
 header {
     box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
 -webkit-box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
     background-color: #080909;
     color: #fff;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
-    position: relative;
+
   }
 
 .widget {
