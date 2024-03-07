@@ -1,19 +1,13 @@
-#collection-542ba4a1e4b032a0dde82b31 {
-  position: relative;
-  /* Assist "position: absolute" below */
-  font-family: 'Raleway', sans-serif;
-}
-
-/* body {
-  position: relative;
-  background: url(https://i.imgur.com/fgSn8vr.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: 'Raleway', sans-serif;
-}
-*/
+body {
+    position: relative;
+    /* Assist "position: absolute" below */
+    background: url(https://i.imgur.com/fgSn8vr.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+  }
 header {
     box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
 -webkit-box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
