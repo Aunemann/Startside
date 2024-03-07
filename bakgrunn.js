@@ -20,8 +20,4 @@
   body.style.backgroundImage = imgURL;
   body.style.backgroundSize = "cover";
   body.style.backgroundRepeat = "no-repeat center center fixed";
-  body.style.webkitbackgroundsize: "cover";
-  body.style.obackgroundsize: "cover";
-  body.style.mozbackgroundsize: "cover";
-  body.style.position: "relative";
 }());
