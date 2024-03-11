@@ -13,7 +13,10 @@
       "https://i.imgur.com/lYjgZjF.jpg",
       "https://i.imgur.com/gFA6Y7m.png",
       "https://i.imgur.com/P4TKcMO.png",
-      "https://i.imgur.com/OJd1Y1Z.png"
+      "https://i.imgur.com/OJd1Y1Z.png",
+      "https://i.imgur.com/FqykS3g.png",
+      "https://i.imgur.com/NUpHffb.png",
+      "https://i.imgur.com/dNH0NxH.png"
 
   ];
 
